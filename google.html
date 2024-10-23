@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+</head>
+<style>
+.google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.navbar{
+    display:flex;
+    justify-content: flex-end;
+}
+p{
+    margin: 2px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+p:hover{
+text-decoration: underline;
+}
+.button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+    border: none;
+
+}
+
+.search-image{
+    height: 90px;
+    width: 90px;
+    vertical-align: center;
+    margin-left: 3px;
+}
+.google-button,.lucky-button{
+    margin-right: 3px;
+    border: none;
+    height: 30px;
+    width: 150px;
+}
+</style>
+<body>
+    <div class="container">
+   <div class="navbar">
+<p>Gmail</p>
+<p>Images</p>
+<div>
+<img class="search-image" src="Labs_logo_light_mode_2x.png" alt="search image "></div>
+   </div>
+   <div class="google">
+    <a href="https://www.google.com/"><img src="googlelogo_color_272x92dp.png" alt="google image "></a>
+    </div>
+
+
+    <div class="search-bar">
+    <input type="text" placeholder="Search.."></div>
+    <div class="button">
+    <button class="google-button">Google search</button>
+   <button class="lucky-button">Im feeling Lucky</button></div>
+   </div>
+</body>
+</html>
